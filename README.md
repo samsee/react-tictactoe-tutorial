@@ -4,3 +4,25 @@
 * 완성본 : https://codepen.io/gaearon/pen/gWWZgR
 * 스켈레톤 : https://codepen.io/gaearon/pen/oWWQNa
 
+
+
+### Step 1
+
+* 
+
+
+
+### Step 2
+
+
+### Step 3
+
+
+
+### Step 4
+
+
+### Step 5
+
+### Step 6
+
