@@ -15,8 +15,9 @@
 
 ## Step 2 : [순서 만들기](https://ko.reactjs.org/tutorial/tutorial.html#completing-the-game)
 
-* 상태를 Square 컴포넌트에서 
-* 
+* 상태를 Square 컴포넌트에서 Board 컴포넌트로 관리하도록 변경했다.
+* Board의 상태와 이벤트 핸들러를 Square 컴포넌트로 전달했다.
+* Square 컴포넌트를 함수 컴포넌트로 리팩토링했다.
 
 ## *Step 3*
 
