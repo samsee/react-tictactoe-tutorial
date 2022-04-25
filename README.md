@@ -19,7 +19,7 @@
 * Board의 상태와 이벤트 핸들러를 Square 컴포넌트로 전달했다.
 * Square 컴포넌트를 함수 컴포넌트로 리팩토링했다.
 
-> 변경된 코드 [#2](pull/2)
+> 변경된 코드 [#2](https://github.com/samsee/react-tictactoe-tutorial/pull/2)
 
 ## Step 3 : [승자 결정하기](https://ko.reactjs.org/tutorial/tutorial.html#declaring-a-winner)
 
@@ -27,12 +27,15 @@
 * 클릭이 발생하면 계산 로직을 실행하도록 변경했다.
 * 계산 결과 승자가 있다면 클릭 이벤트를 중단시키도록 변경했다.
 
-> 변경된 코드 [#3](pull/3)
+> 변경된 코드 [#3](https://github.com/samsee/react-tictactoe-tutorial/pull/3)
 
-## *Step 4*
+여기까지 하면 일단 게임은 돌아간다. [Step 4](#step-4) 는 왠지 약간 억지스러워 보인다.
 
+## Step 4 : [시간 여행 추가하기](https://ko.reactjs.org/tutorial/tutorial.html#adding-time-travel)
 
-## *Step n*
+* 매 턴을 기록하기 위해 상태를 Game 컴포넌트로 옮겼다.
+* 
+
 
 
 
@@ -70,3 +73,4 @@
   - [ ] 함수 컴포넌트는 state가 없는것만 다른 것일까?
   - [ ] render에 괄호 넣는 경우도 있고 안 넣는 경우도 있다. 무슨 차이?
   - [ ] setState 때 마다 하위 컴포넌트를 모두 다시 렌더링 하는것은 비효율적이지 않나?
+  - [ ] 상태 변수의 불변성을 강조하는 것 같은데 그냥 가이드인가 아니면 지켜야 할 룰인가?
