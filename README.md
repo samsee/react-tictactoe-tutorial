@@ -1,6 +1,6 @@
 # react-tictactoe-tutorial
 
-리액트 튜토리얼 따라하기 : [공홈의 튜토리얼](https://ko.reactjs.org/tutorial/tutorial.html)을 따라가면서 배우 내용을 정리합니다.
+리액트 튜토리얼 따라하기 : [공홈의 튜토리얼](https://ko.reactjs.org/tutorial/tutorial.html)을 따라가면서 배운 내용을 정리합니다.
 
 * 완성본 : https://codepen.io/gaearon/pen/gWWZgR
 * 스켈레톤 : https://codepen.io/gaearon/pen/oWWQNa
@@ -34,10 +34,6 @@
 ## Step 4 : [시간 여행 추가하기](https://ko.reactjs.org/tutorial/tutorial.html#adding-time-travel)
 
 * 매 턴을 기록하기 위해 상태를 Game 컴포넌트로 옮겼다.
-* 
-
-
-
 
 # 배운 것들
 
