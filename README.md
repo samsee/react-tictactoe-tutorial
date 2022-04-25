@@ -52,11 +52,12 @@
 * state를 부모 컴포넌트로 끌어올리는 것은 React 개발에서 흔히 사용된다.
 * 컴포넌트는 자신이 정의한 state에만 접근할 수 있다. -> 그래서 이벤트 핸들러도 전달해야 함.
 * chrome과 firefox에서 extension으로 react debug를 제공한다.
+* 배열이나 리스트 요소를 표시할 할 때는 key prop을 정의해야 한다.
 
 # 현재 모르는 것들/궁금한 것들
 
-- [ ] Javascript : [이걸](https://developer.mozilla.org/ko/docs/web/javascript/a_re-introduction_to_javascript) 보란다. 
-  - [ ] 클래스와 상속
+- [ ] Javascript : [MDN의 JavaScript 재입문하기](https://developer.mozilla.org/ko/docs/web/javascript/a_re-introduction_to_javascript)를 보란다.
+  - [ ] 클래스와 상속 : 과거의 prototype 기반 상속이랑 다르다. class 도 있고 extends 도 있고..
   - [ ] let, const
   - [ ] 화살표 함수(=>) : 람다 관련인 것 같은데..
   - [ ] constructor
