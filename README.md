@@ -49,10 +49,12 @@
 * 컴포넌트는 자신이 정의한 state에만 접근할 수 있다. -> 그래서 이벤트 핸들러도 전달해야 함.
 * chrome과 firefox에서 extension으로 react debug를 제공한다.
 * 배열이나 리스트 요소를 표시할 할 때는 key prop을 정의해야 한다.
+* MDN에 [Front-end Web developer](https://developer.mozilla.org/ko/docs/Learn/Front-end_web_developer) 라는 코스? 가 있네..
+* MDN에도 [React 튜토리얼](https://developer.mozilla.org/ko/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started)이 있다.
 
 # 현재 모르는 것들/궁금한 것들
 
-- [ ] Javascript : [MDN의 JavaScript 재입문하기](https://developer.mozilla.org/ko/docs/web/javascript/a_re-introduction_to_javascript)를 보란다.
+- [x] Javascript : [MDN의 JavaScript 재입문하기](https://developer.mozilla.org/ko/docs/web/javascript/a_re-introduction_to_javascript)를 보란다. [modern_javascript](/study/modern_javascript.md)
   - [ ] 클래스와 상속 : 과거의 prototype 기반 상속이랑 다르다. class 도 있고 extends 도 있고..
   - [ ] let, const
   - [ ] 화살표 함수(=>) : 람다 관련인 것 같은데..
@@ -60,7 +62,7 @@
   - [ ] 세미콜론과 괄호, 중괄호 : 옛날에도 헷갈려는데 더 헷갈려진 것 같아..
   - [ ] Object, assign, 객체 spread?? : 이거 언제 생겼데
   - [ ] 이 코드 뭐지 : `if (squares[a] && squares[a] === squares[b] && squares[a] === squares[c])`
-  - [ ] 조건문에서 false로 평가되는 경우 : false, null(흠..), 또 뭐 있지?
+  - [x] 조건문에서 false로 평가되는 경우 : false, null(흠..), 또 뭐 있지? -> false로 평가 = false, 0, 빈 문자열, NaN, null, undefined
 - [ ] 리액트
   - [ ] 스코프 : 소스 뒤쪽에서 정의한 함수도 참조가 된다. 원래 이게 됐었나? 예전엔 순차적으로 했던 것 같은데..
   - [ ] 배열, 이터레이터의 key property : 이건 전에 Vue 쪽에서 봤는데.. 같은건가?
