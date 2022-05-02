@@ -55,21 +55,21 @@
 # 현재 모르는 것들/궁금한 것들
 
 - [x] Javascript : [MDN의 JavaScript 재입문하기](https://developer.mozilla.org/ko/docs/web/javascript/a_re-introduction_to_javascript)를 보란다. [modern_javascript](/study/modern_javascript.md)
-  - [ ] 클래스와 상속 : 과거의 prototype 기반 상속이랑 다르다. class 도 있고 extends 도 있고..
-  - [ ] let, const
-  - [ ] 화살표 함수(=>) : 람다 관련인 것 같은데..
+  - [x] 클래스와 상속 : 과거의 prototype 기반 상속이랑 다르다. class 도 있고 extends 도 있고..
+  - [x] let, const
+  - [x] 화살표 함수(=>) : 람다 관련인 것 같은데..
   - [ ] constructor
   - [ ] 세미콜론과 괄호, 중괄호 : 옛날에도 헷갈려는데 더 헷갈려진 것 같아..
   - [ ] Object, assign, 객체 spread?? : 이거 언제 생겼데
-  - [ ] 이 코드 뭐지 : `if (squares[a] && squares[a] === squares[b] && squares[a] === squares[c])`
+  - [ ] 이 코드 뭐지 : `if (squares[a] && squares[a] === squares[b] && squares[a] === squares[c])` 우선순위 어떻게 되는거여..
   - [x] 조건문에서 false로 평가되는 경우 : false, null(흠..), 또 뭐 있지? -> false로 평가 = false, 0, 빈 문자열, NaN, null, undefined
 - [ ] 리액트
-  - [ ] 스코프 : 소스 뒤쪽에서 정의한 함수도 참조가 된다. 원래 이게 됐었나? 예전엔 순차적으로 했던 것 같은데..
-  - [ ] 배열, 이터레이터의 key property : 이건 전에 Vue 쪽에서 봤는데.. 같은건가?
+  - [x] 스코프 : 소스 뒤쪽에서 정의한 함수도 참조가 된다. 원래 이게 됐었나? 예전엔 순차적으로 했던 것 같은데.. -> 호이스팅
+  - [x] 배열, 이터레이터의 key property : 이건 전에 Vue 쪽에서 봤는데.. 같은건가?
   - [ ] 컴포넌트의 props, state 차이는?
   - [ ] 컴포넌트의 포함 관계를 동적으로 해줄 수 있나? 예제와 jsx로만 봤을 땐 없는 것 같은데..
   - [ ] 함수 컴포넌트는 state가 없는것만 다른 것일까?
-  - [ ] render에 괄호 넣는 경우도 있고 안 넣는 경우도 있다. 무슨 차이?
+  - [x] render에 괄호 넣는 경우도 있고 안 넣는 경우도 있다. 무슨 차이? -> 객체 리턴할 때 괄호 사용
   - [ ] setState 때 마다 하위 컴포넌트를 모두 다시 렌더링 하는것은 비효율적이지 않나?
   - [ ] 상태 변수의 불변성을 강조하는 것 같은데 그냥 가이드인가 아니면 지켜야 할 룰인가?
   - [ ] render 함수는 모든 것이 다시 그려진다고 생각하고 구현해야 하는건가?
